@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Page.dart';
+import 'HomePage.dart';
 void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: Page(),
+      home: HomePage(),
       
     );
   }

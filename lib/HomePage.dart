@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-class Page extends StatefulWidget {
+class HomePage extends StatefulWidget {
   @override
-   _PageState createState() => _PageState();
+   _HomePageState createState() => _HomePageState();
 }
 
-class _PageState extends State<Page> {
+class _HomePageState extends State<HomePage> {
 var rel;
 String  f1;
 String  f2;
